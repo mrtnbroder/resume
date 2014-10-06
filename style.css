@@ -126,7 +126,7 @@ footer hr {
 
 .container {
   max-width: 50em;
-  width:92%;
+  /*width:92%;*/
   margin-right: auto;
   margin-left: auto;
 }
@@ -175,6 +175,16 @@ footer hr {
   .grid-4 { width: 66.6666666%; }
   .grid-5 { width: 83.3333333%; }
   .grid-6 { width: 100%; }
+
+}
+
+@media screen and (min-width: 40em) {
+  .grid-push-1 { margin-left: 16.6666666%; }
+  .grid-push-2 { margin-left: 33.3333333%; }
+  .grid-push-3 { margin-left: 50%; }
+  .grid-push-4 { margin-left: 66.6666666%; }
+  .grid-push-5 { margin-left: 83.3333333%; }
+  .grid-push-6 { margin-left: 100%; }
 
 }
 
@@ -275,19 +285,24 @@ footer hr {
   margin-top: 3em;
   margin-bottom: 3em;
   text-align: center;
+  min-height: 468px;
 }
 
-.spotlight.margin {
-  margin-bottom: 0;
+.spotlight .container {
+  position: relative;
+}
+
+.spotlight.no-margin {
+  margin: 0;
 }
 
 .spotlight.blue {
-  margin-top: 0;
-  background-color: #3c3b4f;
+  margin-bottom: 0;
+  background-color: #394154;
 }
 
 .spotlight.red {
-  margin: 0;
+  margin-top: 0;
   background-color: #dc4f55;
 }
 
@@ -319,8 +334,8 @@ footer hr {
 
 .spotlight.blue h1,
 .spotlight.blue a {
-  color: #57f3a0;
-  border-color: #57f3a0;
+  color: #41E2BE;
+  border-color: #41E2BE;
 }
 
 .spotlight.blue p {
@@ -341,6 +356,24 @@ footer hr {
 .spotlight a:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+.teaser {
+  position: absolute;
+  bottom: -136px;
+}
+
+.teaser.left {
+  left: -20%;
+}
+.teaser.right {
+  right: -20%;
+}
+.teaser.birthdaysuits {
+  bottom: -200px;
+}
+.teaser.gemeindeapp {
+  bottom: -104px;
 }
 
 @media screen and (min-width: 40em) {
