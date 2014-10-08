@@ -661,7 +661,9 @@ footer hr {
   color: #e4382c;
   font-size: 1.1em;
   opacity: .8;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2; }
 
 .spotlight a:hover {
   opacity: 1;
