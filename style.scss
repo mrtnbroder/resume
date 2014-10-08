@@ -563,13 +563,24 @@ footer hr {
     background-color: #5e6871;
     color: #fff;
   }
+
+  &.darkgray {
+    background-color: #4d4b4c;
+    color: #fff;
+  }
 }
 
 .clip {
   position: absolute;
   bottom: 0;
+  max-width: none;
 
   &.details {
+    bottom: -700px;
+  }
+
+  &.prototype {
+    width: 1600px;
     bottom: -700px;
   }
 }

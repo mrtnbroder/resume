@@ -184,6 +184,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/projects\/dillinger\/prototype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.29943e+06,
+		"inputAbbreviatedPath": "\/img\/projects\/dillinger\/prototype.png",
+		"outputAbbreviatedPath": "\/img\/projects\/dillinger\/prototype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projects\/dillinger\/sketches.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

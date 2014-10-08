@@ -744,11 +744,18 @@ footer hr {
   .explanation.slategray {
     background-color: #5e6871;
     color: #fff; }
+  .explanation.darkgray {
+    background-color: #4d4b4c;
+    color: #fff; }
 
 .clip {
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  max-width: none; }
   .clip.details {
+    bottom: -700px; }
+  .clip.prototype {
+    width: 1600px;
     bottom: -700px; }
 
 blockquote {
