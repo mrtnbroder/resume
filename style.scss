@@ -18,6 +18,10 @@ h1, h2, h3 {
   font-weight: 300;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 a {
   color: #3d6dbe;
   text-decoration: none;
@@ -43,6 +47,12 @@ hr {
   border-bottom: none;
   margin-top: 3em;
   margin-bottom: 2em;
+}
+
+.middle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 header {
@@ -169,6 +179,7 @@ footer hr {
   padding: 0 1%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 @media screen and (min-width: 40em) {
@@ -487,12 +498,80 @@ footer hr {
   }
 
   &-layer {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    @extend .middle;
     z-index: 0;
   }
 
+}
+
+.tiles {
+  overflow: hidden;
+  width: 100%;
+
+  img {
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .tile {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+
+    &.left {
+      width: 50%;
+      padding-right: 5px;
+    }
+
+    &.right {
+      width: 50%;
+      padding-left: 5px;
+    }
+
+    &.large {
+      float: none;
+    }
+  }
+}
+
+.about {
+  margin: 8em 0;
+
+  .container {
+    max-width: 700px;
+  }
+
+}
+
+
+
+.explanation {
+  padding: 3em 0;
+  overflow: hidden;
+  min-height: 700px;
+
+  .row {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  &.gray {
+    background-color: #f3f3f3;
+  }
+  &.slategray {
+    background-color: #5e6871;
+    color: #fff;
+  }
+}
+
+.clip {
+  position: absolute;
+  bottom: 0;
+
+  &.details {
+    bottom: -700px;
+  }
 }
 
 blockquote {

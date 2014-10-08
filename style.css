@@ -334,6 +334,9 @@ h1, h2, h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
+h2 {
+  font-size: 50px; }
+
 a {
   color: #3d6dbe;
   text-decoration: none; }
@@ -354,6 +357,13 @@ hr {
   border-bottom: none;
   margin-top: 3em;
   margin-bottom: 2em; }
+
+.middle, .parallax-layer {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
 
 header {
   background-color: #999;
@@ -449,7 +459,8 @@ footer hr {
   width: 100%;
   padding: 0 1%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  position: relative; }
 
 @media screen and (min-width: 40em) {
   .grid-1 {
@@ -694,12 +705,51 @@ footer hr {
   .parallax-group:before {
     top: -50px; }
 .parallax-layer {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
   z-index: 0; }
+
+.tiles {
+  overflow: hidden;
+  width: 100%; }
+  .tiles img {
+    width: 100%;
+    vertical-align: middle; }
+  .tiles .tile {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px; }
+    .tiles .tile.left {
+      width: 50%;
+      padding-right: 5px; }
+    .tiles .tile.right {
+      width: 50%;
+      padding-left: 5px; }
+    .tiles .tile.large {
+      float: none; }
+
+.about {
+  margin: 8em 0; }
+  .about .container {
+    max-width: 700px; }
+
+.explanation {
+  padding: 3em 0;
+  overflow: hidden;
+  min-height: 700px; }
+  .explanation .row {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px; }
+  .explanation.gray {
+    background-color: #f3f3f3; }
+  .explanation.slategray {
+    background-color: #5e6871;
+    color: #fff; }
+
+.clip {
+  position: absolute;
+  bottom: 0; }
+  .clip.details {
+    bottom: -700px; }
 
 blockquote {
   margin: 1.5em auto;

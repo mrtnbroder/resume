@@ -140,6 +140,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/projects\/dillinger\/details.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/dillinger\/details.png",
+		"outputAbbreviatedPath": "\/img\/projects\/dillinger\/details.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projects\/dillinger\/eh.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -184,6 +195,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/projects\/dillinger\/sketches.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/dillinger\/sketches.png",
+		"outputAbbreviatedPath": "\/img\/projects\/dillinger\/sketches.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projects\/dillinger\/teaser.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -191,6 +213,39 @@
 		"initialSize": 83823,
 		"inputAbbreviatedPath": "\/img\/projects\/dillinger\/teaser.png",
 		"outputAbbreviatedPath": "\/img\/projects\/dillinger\/teaser.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/dillinger\/tile-big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107721,
+		"inputAbbreviatedPath": "\/img\/projects\/dillinger\/tile-big.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/dillinger\/tile-big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/dillinger\/tile-left.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87163,
+		"inputAbbreviatedPath": "\/img\/projects\/dillinger\/tile-left.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/dillinger\/tile-left.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/dillinger\/tile-right.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96719,
+		"inputAbbreviatedPath": "\/img\/projects\/dillinger\/tile-right.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/dillinger\/tile-right.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
