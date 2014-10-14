@@ -5,9 +5,10 @@
 	<title>Resume of Martin Broder</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css-->
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn:200,400italic,400' rel='stylesheet' type='text/css'>
 	<!-- stylesheets -->
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="app.css" type="text/css" />
 	<!-- favicon -->
 	<link rel="shortcut icon" href="img/favicon.ico">
 
@@ -19,108 +20,109 @@
 <body>
 
 	<!-- Header-->
-	<header>
-		<h1>Martin Broder</h1>
-		<p>Designer &amp; Developer</p>
+	<header class="header">
+		<div class="page">
+			<div class="me">
+				<h1>Hi!<span> I'm Martin.</span></h1>
+				<p>Designer <span>&amp; Developer</span><br></p>
+			</div>
+		</div>
 	</header>
 
-	<div class="container">
-
-		<!-- Introduction-->
-		<section class="center">
-			<h1>About</h1>
-			<p>My name is Martin, and I'm a passionate designer and front-end developer, currently living in Berlin, Germany.</p>
-			<!-- <p>I enjoy designing and coding mobile and web applications</p> -->
-			<p>I've successfully finished my apprenticeship as a media designer in 2013, where I first worked some more time as an full-time employee. In 2014 I decided to go freelance to work closer with start-ups and agencies. Since then I've gained a lot of experience with several coding languages including JavaScript, Ruby, PHP and frameworks like Bootstrap, AngularJS, Backbone, Ionic, Laravel and more. I constantly try to stay open for new things and keep myself up-to-date.</p>
-			<p>You'll find me a lot on <a href="https://twitter.com/mrtnbroder">Twitter</a>, hanging around on <a href="http://news.layervault.com/">Designer</a>/<a href="https://news.ycombinator.com/">Hacker News</a>, posting shots on <a href="https://dribbble.com/mrtnbroder">Dribbble</a> and lifting weights in the gym to keep myself fit. When I got the time, I also like to contribute to <a href="https://github.com/mrtnbroder">open source projects</a> and hacking on side-projects.</p>
-		</section>
-
-		<hr>
-
-		<!-- Gallery Block-->
-		<section class="gallery">
-			<h1 class="center">Case studies</h1>
-		</section>
-		<!-- Testimonials-->
-	</div> <!-- End container-->
-
-	<section class="spotlight blue">
-		<div class="container">
-			<div class="row">
-				<div class="grid-3">
-					<img class="teaser left" src="img/projects/dillinger/teaser.png">
-				</div>
-				<div class="grid-3 grid-push-3">
-					<h1>Dillinger.io</h1>
-					<p>Dillinger is an open source markdown editor based on node.js and is beign maintained by Joe McCann. It desperatly needed a redesign in 2014, so I took the challenge.</p>
-					<a href="dillinger.html">View Project</a>
-				</div>
+	<section class="introduction">
+		<div class="page">
+			<div class="splitted">
+				<p>My name is Martin, and I'm a passionate designer and front-end developer, currently living in Berlin, Germany.</p>
+				<!-- <p>I enjoy designing and coding mobile and web applications</p> -->
+				<p>I've successfully finished my apprenticeship as a media designer in 2013, where I first worked some more time as an full-time employee. In 2014 I decided to go freelance to work closer with start-ups and agencies. Since then I've gained a lot of experience with several coding languages including JavaScript, Ruby, PHP and frameworks like Bootstrap, AngularJS, Backbone, Ionic, Laravel and more. I constantly try to stay open for new things and keep myself up-to-date.</p>
+				<p>You'll find me a lot on <a href="https://twitter.com/mrtnbroder">Twitter</a>, hanging around on <a href="http://news.layervault.com/">Designer</a>/<a href="https://news.ycombinator.com/">Hacker News</a>, posting shots on <a href="https://dribbble.com/mrtnbroder">Dribbble</a> and lifting weights in the gym to keep myself fit. When I got the time, I also like to contribute to <a href="https://github.com/mrtnbroder">open source projects</a> and hacking on side-projects.</p>
 			</div>
+
 		</div>
 	</section>
 
-	<section class="spotlight no-margin">
-		<div class="container">
-			<div class="row">
-				<div class="grid-3">
-					<h1>Birthday Suits</h1>
-					<p>Birthday Suits is a the fashion collection of artist and fashion designer Louise Walleneit.</p>
-					<a href="birthday-suits.html">View Project</a>
-				</div>
-				<div class="grid-3 grid-push-3">
-					<img class="teaser right birthdaysuits" src="img/projects/birthdaysuits/teaser.png">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Spotlight -->
-	<section class="spotlight red">
-		<div class="container">
-			<div class="row">
-				<div class="grid-3">
-					<img src="img/projects/communal-app/teaser.png" alt="" class="teaser left gemeindeapp">
-				</div>
-				<div class="grid-3 grid-push-3">
-					<h1>Gemeinde App</h1>
-					<p>Gemeinde App addresses all communes which want to get their citizens involved in urban development and the events within the municipal. The app is an information medium for both residents and tourists.</p>
-					<a href="#">View Project</a>
+	<section class="case-studies">
+		<article class="case-study case-study--dillinger">
+			<div class="page">
+				<div class="flex-showcase reverse">
+					<div class="g-b g-b--d1of2 showcase-item">
+						<h1>Dillinger.io</h1>
+						<p>Dillinger is possible the biggest Open Source Markdown editor based on Angular and Node.js.</p>
+						<a class="btn btn--dillinger" href="dillinger.html">View Case Study</a>
+					</div>
+					<div class="g-b g-b--d1of2 showcase-image dillinger">
+						<img src="img/projects/dillinger/teaser.png"
+								 srcset="img/projects/dillinger/teaser.png 1x,
+								 				 img/projects/dillinger/teaser@2x.png 2x">
+					</div>
 				</div>
 			</div>
-		</div>
+		</article>
+
+		<article class="case-study case-study--birthdaysuits">
+			<div class="page">
+				<div class="flex-showcase">
+					<div class="g-b g-b--d1of2 showcase-item">
+						<h1>Birthday Suits</h1>
+						<p>Birthday Suits is a the fashion collection of artist and fashion designer Louise Walleneit.</p>
+						<a class="btn btn--birthdaysuits" href="birthday-suits.html">View Case Study</a>
+					</div>
+					<div class="g-b g-b--d1of2 showcase-image birthdaysuits">
+						<img src="img/projects/birthdaysuits/teaser.png"
+								 srcset="img/projects/birthdaysuits/teaser.png 1x,
+								 				 img/projects/birthdaysuits/teaser@2x.png 2x">
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article class="case-study case-study--gemeindeapp">
+			<div class="page">
+				<div class="flex-showcase reverse">
+					<div class="g-b g-b--d1of2 showcase-item">
+						<h1>Gemeinde App</h1>
+						<p>Gemeinde App addresses all communes which want to get their citizens involved in urban development and the events within the municipal. The app is an information medium for both residents and tourists.</p>
+						<a class="btn btn--gemeindeapp" href="gemeinde-app.html">View Case Study</a>
+					</div>
+					<div class="g-b g-b--d1of2 showcase-image gemeindeapp">
+						<img src="img/projects/communal-app/teaser.png"
+								 srcset="img/projects/communal-app/teaser.png 1x,
+								 				 img/projects/communal-app/teaser@2x.png 2x">
+					</div>
+				</div>
+			</div>
+		</article>
 	</section>
 
-	<!-- New container-->
-	<div class="container">
+	<section class="education">
+		<div class="page">
 
-		<section class="education">
-			<h2>Trained Media Designer in Digital- &amp; Printmedia</h2>
-		</section>
+			<h1>Curriculum Vitae</h1>
 
-		<hr>
-
-		<!--Experience Tables-->
-		<section class="experience">
-			<div class="row">
-				<div class="grid-2">
-					<h2>nerdgeschoss GmbH</h2>
-					<p>March. 2014 - Present</p>
+			<div class="g experience">
+				<div class="g-b g-b--d4of12">
+					<header>
+						<h3>Webstyle GmbH</h3>
+						<p>March. 2010 - September. 2013</p>
+					</header>
 				</div>
-				<div class="grid-4">
+				<div class="g-b g-b--d8of12">
 					<ul>
-						<li>Role as Señor UI/UX Designer and Developer</li>
-						<li>Worked in a small team with Lean UX Principles</li>
-						<li>Built several hybrid Apps with Ionic, Phonegap/Cordova and AngularJS</li>
-						<li>Responsibility for threshold workers</li>
+						<li>Started my apprenticeship as a Media Designer</li>
+						<li>Learned basic HTML, CSS, JavaScript</li>
+						<li>Designed and developed several websites for clients from various areas</li>
 					</ul>
 				</div>
 			</div>
-			<div class="row">
-				<div class="grid-2">
-					<h2>3pc GmbH</h2>
-					<p>Oct. 2013 - Feb. 2014</p>
+
+			<div class="g experience">
+				<div class="g-b g-b--d4of12">
+					<header>
+						<h3>3pc GmbH</h3>
+						<p>Oct. 2013 - Feb. 2014</p>
+					</header>
 				</div>
-				<div class="grid-4">
+				<div class="g-b g-b--d8of12">
 					<ul>
 						<li>Role as a Mobile &amp; Web Developer</li>
 						<li>Built hybrid Apps with the Titanium Framework for iOS and Android</li>
@@ -129,62 +131,61 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row">
-				<div class="grid-2">
-					<h2>Webstyle GmbH</h2>
-					<p>March. 2010 - September. 2013</p>
+
+			<div class="g experience">
+				<div class="g-b g-b--d4of12">
+						<header>
+							<h3>nerdgeschoss GmbH</h3>
+							<p>March. 2014 - Present</p>
+						</header>
 				</div>
-				<div class="grid-4">
+				<div class="g-b g-b--d8of12">
 					<ul>
-						<li>Started my apprenticeship as a Media Designer</li>
-						<li>Learned basic HTML, CSS, JavaScript</li>
-						<li>Designed and developed several websites for clients from various areas</li>
+						<li>Role as Señor UI/UX Designer and Developer</li>
+						<li>Worked in a small team with Lean UX Principles</li>
+						<li>Built several hybrid Apps with Ionic, Phonegap/Cordova and AngularJS</li>
+						<li>Responsibility for threshold workers</li>
 					</ul>
 				</div>
 			</div>
-		</section>
 
-		<hr>
+		</div>
+	</section>
 
-		<section>
-			<!--List of skills-->
-			<div class="row">
-				<div class="grid-2">
-					<h1>Skills</h1>
-					<ul>
-						<li>HTML(5)</li>
-						<li>CSS(3)</li>
-						<li>JavaScript/CoffeeScript</li>
-						<li>Angular.js</li>
-						<li>Backbone.js</li>
-						<li>Node.js</li>
-						<li>SASS, LESS, Stylus</li>
-						<li>Adobe Creative Suite</li>
-						<li>Gulp, Grunt, Yo</li>
-						<li>Git</li>
-						<li>PHP</li>
-						<li>Ruby on Rails</li>
-					</ul>
-				</div>
+	<section class="skills">
+		<div class="page">
 
-				<div class="grid-4">
-					<h1>In Conclusion</h1>
-					<p>
-						Shoot me a mail at <a href="mailto:hello@martinbroder.com">hello@martinbroder.com</a> or follow me on <a href="https://twitter.com/mrtnbroder">Twitter</a> if you like.
-					</p>
-				</div>
-			</div>
-		</section>
+			<h1>Frameworks I have worked with</h1>
 
+			<ul class="skill-list">
+				<li><img src="img/logos/angular-js.png" alt="AngularJS Logo"></li>
+				<li><img src="img/logos/backbone-js.png" alt="Backbone.js Logo"></li>
+				<li><img src="img/logos/bootstrap.png" alt="Twitter Bootstrap Logo"></li>
+				<li><img src="img/logos/coffee-script.png" alt="Coffeescript Logo"></li>
+				<li><img src="img/logos/css3.png" alt="CSS3 Logo"></li>
+				<li><img src="img/logos/grunt.png" alt="Grunt Logo"></li>
+				<li><img src="img/logos/gulp.png" alt="Gulp Logo"></li>
+				<li><img src="img/logos/html5.png" alt="HTML5 Logo"></li>
+				<li><img src="img/logos/ionic.png" alt="Ionic Framework Logo"></li>
+				<!-- <li><img src="img/logos/javascript.png" alt="JavaScript Logo"></li> -->
+				<li><img src="img/logos/jquery.png" alt="jQuery Logo"></li>
+				<li><img src="img/logos/less.png" alt="LESS Logo"></li>
+				<li><img src="img/logos/node-js.png" alt="Node.js Logo"></li>
+				<li><img src="img/logos/phonegap.png" alt="Phonegap logo"></li>
+				<li><img src="img/logos/ruby-on-rails.png" alt="Ruby on Rails Logo"></li>
+				<li><img src="img/logos/sass.png" alt="SASS Logo"></li>
+				<li><img src="img/logos/stylus.png" alt="Stylus Logo"></li>
+				<li><img src="img/logos/webpack.png" alt="Webpack Logo"></li>
+				<li><img src="img/logos/wordpress.png" alt="Wordpress Logo"></li>
+			</ul>
+		</div>
+	</section>
 
-
-		<!--Footer-->
-		<footer class="center">
-			<hr>
-			<span>&copy; Martin Broder 2014</span>
-		</footer>
-
-	</div><!-- End Container -->
+	<footer class="footer">
+		<div class="page">
+			<p>&copy; Martin Broder 2014</p>
+		</div>
+	</footer>
 
 </body>
 </html>

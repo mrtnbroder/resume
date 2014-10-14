@@ -1,0 +1,20 @@
+// *************************************
+//
+//   Skills
+//   -> SKills Section
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .skills[.skills--modifier](.is-state)(.has-context)
+//   .skills-scaffolding
+//
+// *************************************
+
+.skills {
+  h1 {
+    @extend %tac;
+    margin: 3rem 0;
+  }
+}

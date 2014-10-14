@@ -30,7 +30,7 @@
   <!-- About-->
   <section class="about">
     <div class="container">
-      <h2>About</h2>
+      <h2 class="wow fadeInLeft" data-wow-offet="300">About</h2>
       <p>Dillinger.io is a side-project of Joe McCann, a Node.js developer, Cofounder/CEO of nodesource, Futurist, Minimalist and Capitalist from New York. He built Dillinger.io in the need of a decent markdown editor with a live preview. Today, it has over 50.000 page views the month and over 3.000 stars on GitHub.</p>
       <p>He asked for Redesign and UX improvements, since it looked outdated and desperatly needed a refreshment. It was a requirement to use a Open Source HTML, CSS and JS framework like Bootstrap, so people could easily contribute.</p>
     </div>
@@ -63,16 +63,18 @@
     </section>
   </div>
 
-  <div class="explanation darkgray">
+  <div class="explanation">
     <section class="row">
-      <div class="grid-2">
+      <div class="grid-4">
+        <video class="clip prototype wow fadeInLeft" autobuffer autoloop loop autoplay>
+          <source src="img/projects/dillinger/ipad-mockup.mp4">
+        </video>
+      </div>
+      <div class="grid-2 grid-push-4 wow fadeInRight">
         <!-- Prototyping -->
         <h2>Prototyping</h2>
         <p>I wanted to show a great presentation of my designs, and what is the best way of doing that? Right.<br> A <del><em>printed, cut out and combined, mobile phone camera filmed</em></del> interactive prototype of course! I started to export the pages (I love how fast and easy it is with Sketch App to export images) to upload them on InVison, an awesome online prototyping web-app. Within a matter of minutes, I've had a working prototype of the app, easily sent to my client with the click of a button.</p>
         <p>One "Awesome!" later, I've had my confirmation to get on to my next step.</p>
-      </div>
-      <div class="grid-4">
-        <img src="img/projects/dillinger/prototype.png" class="clip prototype" alt="">
       </div>
     </section>
   </div>
@@ -85,9 +87,9 @@
   <div class="explanation slategray">
     <section class="row">
       <div class="grid-4">
-        <img src="img/projects/dillinger/details.png" class="clip details" alt="">
+        <img src="img/projects/dillinger/coding.jpg" class="clip details" alt="">
       </div>
-      <div class="grid-2 grid-push-4">
+      <div class="grid-2 grid-push-4 wow bounceInUp">
       <!-- Coding -->
         <h2>The Coding</h2>
         <p>It is always a challenge, working into someone elses codebase, especially when nothing is commented or documented. For my luck, the code was greatly written and most functions had comments, it didn't take me long and I started to implement my stuff on top of it.</p>
@@ -122,5 +124,11 @@
   <!-- New container-->
   <!-- End Container -->
 
+  <script src="bower_components/wow/dist/wow.min.js"></script>
+  <script>
+   new WOW({
+    offset: 300
+   }).init();
+  </script>
 </body>
 </html>

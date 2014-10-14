@@ -1,0 +1,79 @@
+// *************************************
+//
+//   Case Study
+//   -> This is an example case-study
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .case-study[.case-study--modifier](.is-state)(.has-context)
+//   .case-study-scaffolding
+//
+// *************************************
+
+.case-study {
+  overflow: hidden;
+
+  img {
+    // position: absolute;
+    // top: 0;
+    // z-index: 2;
+  }
+
+  .page {
+    position: relative;
+  }
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+  &--dillinger {
+    background-color: map-get(map-get($c, background), dillinger);
+    color: map-get(map-get($c, text), dillinger);
+
+    a,
+    h1 {
+      color: map-get(map-get($c, highlight), dillinger);
+    }
+  }
+
+  &--birthdaysuits {
+    background-color: map-get(map-get($c, background), birthdaysuits);
+    color: map-get(map-get($c, text), birthdaysuits);
+
+    a,
+    h1 {
+      color: map-get(map-get($c, highlight), birthdaysuits);
+    }
+  }
+
+  &--gemeindeapp {
+    background-color: map-get(map-get($c, background), gemeindeapp);
+    color: map-get(map-get($c, text), gemeindeapp);
+
+    a,
+    h1 {
+      color: map-get(map-get($c, highlight), gemeindeapp);
+    }
+  }
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+// .case-study.is-state
+
+// -------------------------------------
+//   Context
+// -------------------------------------
+
+// .has-case-study
+
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
+
+// .case-study-scaffolding
+}

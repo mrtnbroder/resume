@@ -1,4 +1,5 @@
 @import "normalize";
+@import "bower_components/animate-sass/animate";
 // @import "parallax";
 
 *, *:before, *:after {
@@ -6,7 +7,7 @@
 }
 
 body {
-  font: 100% sans-serif;
+  font: 13px "Merriweather";
   margin: 0em;
   background-color: #fff;
   color: #666;
@@ -57,7 +58,7 @@ hr {
 
 header {
   background-color: #999;
-  background-image: url(img/background.jpg);
+  background-image: url(img/background_v2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -405,7 +406,7 @@ footer hr {
 
 .box-shadow {
   height: 200px;
-  /*box-shadow: inset 0 -16px 32px rgba(#21252b, .2);*/
+  box-shadow: inset 0 -16px 32px rgba(#21252b, .2);
   margin-top: -264px;
   margin-bottom: 4em;
   position: relative;
@@ -580,8 +581,9 @@ footer hr {
   }
 
   &.prototype {
-    width: 1600px;
+    width: 1400px;
     bottom: -700px;
+    left: -80%;
   }
 }
 

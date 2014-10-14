@@ -1,0 +1,36 @@
+// *************************************
+//
+//   Skill List
+//   -> List of skills in form of images
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// ul.skill-list[.skill-list--flag]
+//   li
+//
+// *************************************
+
+.skill-list {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+
+  li {
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    text-align: center;
+
+    @include from('tablet') {
+      width: 25%;
+    }
+
+    @include from('desktop') {
+      width: auto;
+      padding: 0 20px;
+    }
+  }
+}

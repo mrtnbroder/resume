@@ -1,0 +1,78 @@
+// *************************************
+//
+//   Buttons
+//   -> All basic Buttons
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .btn[.btn--modifier](.is-state)(.has-context)
+//   .btn-scaffolding
+//
+// *************************************
+
+.btn {
+  border: $base-border;
+  padding: 12px 32px 14px;
+  font-family: map-get($headingtype, font-family);
+  font-weight: map-get($headingtype, semibold);
+  border-radius: $base-border-radius;
+  transition: all .15s linear;
+
+  &:hover {
+    background-color: #FFF;
+    color: #000;
+    border-color: #fff;
+  }
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+&--dillinger {
+  border-color: map-get(map-get($c, highlight), dillinger);
+  &:hover {
+    background-color: map-get(map-get($c, highlight), dillinger);
+    color: map-get(map-get($c, text), dillinger);
+    border-color: map-get(map-get($c, highlight), dillinger);
+  }
+}
+
+&--birthdaysuits {
+  border-color: map-get(map-get($c, highlight), birthdaysuits);
+  &:hover {
+    background-color: map-get(map-get($c, highlight), birthdaysuits);
+    color: #fff;
+    border-color: map-get(map-get($c, highlight), birthdaysuits);
+  }
+}
+
+&--gemeindeapp {
+  border-color: map-get(map-get($c, highlight), gemeindeapp);
+  &:hover {
+    background-color: map-get(map-get($c, highlight), gemeindeapp);
+    color: map-get(map-get($c, text), gemeindeapp);
+    border-color: map-get(map-get($c, highlight), gemeindeapp);
+  }
+}
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+// .btn.is-state
+
+// -------------------------------------
+//   Context
+// -------------------------------------
+
+// .has-btn
+
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
+
+// .btn-scaffolding
+
+}

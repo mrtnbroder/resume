@@ -1,0 +1,66 @@
+// *************************************
+//
+//   Education
+//   -> Education Section
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .education[.education--modifier](.is-state)(.has-context)
+//   .education-scaffolding
+//
+// *************************************
+
+%education,
+.education {
+
+  h1 {
+    @extend %tac;
+    margin: 3rem auto 3rem;
+    position: relative;
+
+    &:after {
+      content: "";
+      margin: 80px auto 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 200px;
+      height: 3px;
+      background-color: #000;
+      text-align: center;
+    }
+
+    @include from('tablet') {
+      margin-bottom: 4rem;
+    }
+  }
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+// .education--modifier
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+// .education.is-state
+
+// -------------------------------------
+//   Context
+// -------------------------------------
+
+// .has-education
+
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
+
+// .education-scaffolding
+
+}

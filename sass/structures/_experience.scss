@@ -1,0 +1,40 @@
+// *************************************
+//
+//   Experience
+//   -> Experience Sections
+//      * http://jsfiddle.net/necolas/rZvEF/
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .experience[.experience--flag]
+//   .experience-media
+//     / ...
+//   .experience-content
+//     / ...
+//
+// *************************************
+
+.experience {
+  border-bottom: 1px dotted $c-border;
+  padding: 2rem 0;
+
+  header {
+    text-align: center;
+
+    @include from('desktop') {
+      text-align: left;
+    }
+
+    p {
+      font-style: italic;
+      color: #aaa;
+      margin-top: -.7rem;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+  }
+}
