@@ -341,6 +341,11 @@ td, th {
     height: 150%;
     width: 0; }
 
+.under-construction {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #aaa; }
+
 /**
  * @mixin between($breakpoint-key-left, $breakpoint-key-right)
  * @param {String} $breakpoint-key-left name of the left media query
@@ -1489,6 +1494,94 @@ img {
         right: 20px;
         top: 80px; } }
 
+.flex-step {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media screen and (min-width: 46.25em) {
+    .flex-step {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      height: 700px; }
+      .flex-step.reverse {
+        -webkit-flex-direction: row-reverse;
+            -ms-flex-direction: row-reverse;
+                flex-direction: row-reverse; } }
+
+.step-item, .step-image {
+  padding-top: 3rem; }
+  @media screen and (min-width: 46.25em) {
+    .step-item {
+      padding-top: 0; } }
+
+.step-image {
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+  position: relative;
+  text-align: center; }
+  .step-image video {
+    max-width: 100%; }
+  @media screen and (min-width: 46.25em) {
+    .step-image img {
+      max-width: none;
+      z-index: -1; }
+    .step-image video {
+      max-width: none;
+      z-index: -1; } }
+  @media screen and (min-width: 46.25em) {
+    .step-image.gemeindeapp {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .step-image.gemeindeapp img {
+        position: absolute;
+        right: 20px;
+        top: 37px; } }
+  @media screen and (min-width: 46.25em) {
+    .step-image.execution-dillinger {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .step-image.execution-dillinger img {
+        position: absolute;
+        left: 40px;
+        top: 0; } }
+  @media screen and (min-width: 46.25em) {
+    .step-image.design-dillinger {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .step-image.design-dillinger video {
+        position: absolute;
+        right: 40px;
+        top: 120px;
+        height: 560px; } }
+  @media screen and (min-width: 80em) {
+    .step-image.design-dillinger video {
+      right: 0px;
+      top: 50px;
+      height: 820px; } }
+  @media screen and (min-width: 46.25em) {
+    .step-image.development-dillinger {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .step-image.development-dillinger img {
+        position: absolute;
+        left: 40px;
+        top: -160px; } }
+
 .btn {
   border: 2px solid #9a9aa8;
   padding: 12px 32px 14px;
@@ -1502,23 +1595,34 @@ img {
     color: #000;
     border-color: #fff; }
   .btn--dillinger {
-    border-color: #41E2BE; }
+    border-color: #41E2BE;
+    color: #41E2BE; }
     .btn--dillinger:hover {
       background-color: #41E2BE;
       color: #fff;
       border-color: #41E2BE; }
   .btn--birthdaysuits {
-    border-color: #111; }
+    border-color: #111;
+    color: #111; }
     .btn--birthdaysuits:hover {
       background-color: #111;
       color: #fff;
       border-color: #111; }
   .btn--gemeindeapp {
-    border-color: #CF5757; }
+    border-color: #CF5757;
+    color: #CF5757; }
     .btn--gemeindeapp:hover {
       background-color: #CF5757;
       color: #fff;
       border-color: #CF5757; }
+  .btn.disabled {
+    cursor: not-allowed;
+    border-color: #ccc;
+    color: #ccc; }
+    .btn.disabled:hover {
+      background-color: #fff;
+      color: #ccc;
+      border-color: #ccc; }
 
 .skill-list {
   list-style: none;
@@ -1567,7 +1671,7 @@ img {
       color: #41E2BE; }
   .case-study--birthdaysuits {
     background-color: #ebebeb;
-    color: #555; }
+    color: #666; }
     .case-study--birthdaysuits a, .case-study--birthdaysuits h1 {
       color: #111; }
   .case-study--gemeindeapp {
@@ -1584,6 +1688,23 @@ img {
 .case-study-intro h1 {
   font-size: 60px;
   margin-bottom: 2rem; }
+
+.step {
+  min-height: 700px; }
+  .step-wrapper {
+    overflow: hidden; }
+  .step.showcase {
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+    .step.showcase img {
+      padding-top: 1rem; }
+    .step.showcase.dillinger {
+      margin-top: 5rem;
+      background-color: #F4F4F4; }
+  .step.launch {
+    min-height: 0;
+    margin-top: 8rem;
+    margin-bottom: 6rem; }
 
 .education h1 {
   margin: 3rem auto 3rem;
@@ -1635,6 +1756,6 @@ img {
         -ms-transform: translateY(0);
             transform: translateY(0); }
 
-.footer > .page p, .case-study-intro, .education h1, .skills h1 {
+.footer > .page p, .case-study-intro, .step.showcase .g-b, .step.launch, .education h1, .skills h1 {
   text-align: center; }
 

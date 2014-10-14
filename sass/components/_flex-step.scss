@@ -1,0 +1,120 @@
+// *************************************
+//
+//   Flex Step
+//   -> For Showcasing Work
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .flex-step[.flex--flag]
+//   .flex-item
+//
+// *************************************
+
+.flex-step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  @include from('tablet') {
+    flex-direction: row;
+    height: 700px;
+
+    &.reverse {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.step-item {
+  padding-top: 3rem;
+
+  @include from('tablet') {
+    padding-top: 0;
+  }
+}
+
+.step-image {
+  @extend .step-item;
+  align-self: flex-end;
+  position: relative;
+  text-align: center;
+
+  video {
+    max-width: 100%;
+  }
+
+  @include from('tablet') {
+    img {
+      max-width: none;
+      z-index: -1;
+    }
+
+    video {
+      max-width: none;
+      z-index: -1;
+    }
+  }
+
+  &.gemeindeapp {
+    @include between('tablet', 'widescreen') {
+      align-self: flex-start;
+      img {
+        position: absolute;
+        right: 20px;
+        top: 37px;
+      }
+    }
+  }
+
+  //
+  // DILLINGER SPECIFIC
+  //
+  &.execution-dillinger {
+    @include between('tablet', 'widescreen') {
+      align-self: flex-start;
+
+      img {
+        position: absolute;
+        left: 40px;
+        top: 0;
+      }
+    }
+  }
+
+  &.design-dillinger {
+    @include from('tablet') {
+      align-self: flex-start;
+
+      video {
+        position: absolute;
+        right: 40px;
+        top: 120px;
+        height: 560px;
+      }
+    }
+    @include from('widescreen') {
+      video {
+        right: 0px;
+        top: 50px;
+        height: 820px;
+      }
+    }
+  }
+
+  &.development-dillinger {
+    @include from('tablet') {
+      align-self: flex-start;
+
+      img {
+        position: absolute;
+        left: 40px;
+        top: -160px;
+      }
+    }
+  }
+
+}

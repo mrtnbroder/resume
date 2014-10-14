@@ -32,7 +32,8 @@
 @import 'components/header';
 @import 'components/page';
 @import 'components/splitted';
-@import 'components/flex';
+@import 'components/flex-showcase';
+@import 'components/flex-step';
 @import 'components/buttons';
 @import 'components/skill-list';
 @import 'components/footer';
@@ -48,6 +49,7 @@
 
 @import 'structures/introduction';
 @import 'structures/case-study';
+@import 'structures/step';
 @import 'structures/education';
 @import 'structures/experience';
 @import 'structures/skills';

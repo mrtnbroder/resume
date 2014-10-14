@@ -30,32 +30,46 @@
 //   Modifiers
 // -------------------------------------
 
-&--dillinger {
-  border-color: map-get(map-get($c, highlight), dillinger);
-  &:hover {
-    background-color: map-get(map-get($c, highlight), dillinger);
-    color: map-get(map-get($c, text), dillinger);
+  &--dillinger {
     border-color: map-get(map-get($c, highlight), dillinger);
+    color: map-get(map-get($c, highlight), dillinger);
+    &:hover {
+      background-color: map-get(map-get($c, highlight), dillinger);
+      color: map-get(map-get($c, text), dillinger);
+      border-color: map-get(map-get($c, highlight), dillinger);
+    }
   }
-}
 
-&--birthdaysuits {
-  border-color: map-get(map-get($c, highlight), birthdaysuits);
-  &:hover {
-    background-color: map-get(map-get($c, highlight), birthdaysuits);
-    color: #fff;
+  &--birthdaysuits {
     border-color: map-get(map-get($c, highlight), birthdaysuits);
+    color: map-get(map-get($c, highlight), birthdaysuits);
+    &:hover {
+      background-color: map-get(map-get($c, highlight), birthdaysuits);
+      color: #fff;
+      border-color: map-get(map-get($c, highlight), birthdaysuits);
+    }
   }
-}
 
-&--gemeindeapp {
-  border-color: map-get(map-get($c, highlight), gemeindeapp);
-  &:hover {
-    background-color: map-get(map-get($c, highlight), gemeindeapp);
-    color: map-get(map-get($c, text), gemeindeapp);
+  &--gemeindeapp {
     border-color: map-get(map-get($c, highlight), gemeindeapp);
+    color: map-get(map-get($c, highlight), gemeindeapp);
+    &:hover {
+      background-color: map-get(map-get($c, highlight), gemeindeapp);
+      color: map-get(map-get($c, text), gemeindeapp);
+      border-color: map-get(map-get($c, highlight), gemeindeapp);
+    }
   }
-}
+
+  &.disabled {
+    cursor: not-allowed;
+    border-color: map-get(map-get($c, base), disabled);
+    color: map-get(map-get($c, base), disabled);
+    &:hover {
+      background-color: map-get(map-get($c, base), background);
+      color: map-get(map-get($c, base), disabled);
+      border-color: map-get(map-get($c, base), disabled);
+    }
+  }
 
 // -------------------------------------
 //   States

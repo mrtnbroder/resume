@@ -1,0 +1,70 @@
+// *************************************
+//
+//   Step
+//   -> A Step inside a Case Study
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .step[.step--modifier](.is-state)(.has-context)
+//   .step-scaffolding
+//
+// *************************************
+
+.step {
+  min-height: 700px;
+  // overflow: hidden;
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+// .step--modifier
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+// .step.is-state
+
+// -------------------------------------
+//   Context
+// -------------------------------------
+
+// .has-step
+
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
+
+  &-wrapper {
+    overflow: hidden;
+  }
+
+  &.showcase {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    .g-b {
+      @extend %tac;
+    }
+
+    img {
+      padding-top: 1rem;
+    }
+
+    &.dillinger {
+      margin-top: 5rem;
+      background-color: #F4F4F4;
+    }
+  }
+
+  &.launch {
+    min-height: 0;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    @extend %tac;
+  }
+
+}
