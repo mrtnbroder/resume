@@ -10,6 +10,22 @@
   height: 90vh;
   overflow: hidden;
 
+
+  @include from('tablet') {
+    min-height: 500px;
+  }
+
+  @include from('desktop') {
+    min-height: 700px;
+    height: 700px;
+  }
+
+  &.dillinger {
+    background-color: #394154;
+    background-image: none;
+    height: 400px;
+  }
+
   > .page {
     position: relative;
   }
@@ -20,10 +36,16 @@
     right: -560px;
     width: 700px;
 
+    h1 {
+      font-family: map-get($bodytype, font-family);
+    }
+
     h1,
     p {
       font-size: 24px;
       line-height: 2rem;
+      text-align: left;
+      color: #fff;
     }
 
     span {
@@ -58,25 +80,6 @@
       }
 
     }
-  }
-
-  h1,
-  p {
-    text-align: left;
-    color: #fff;
-  }
-
-  h1 {
-    font-family: map-get($bodytype, font-family);
-  }
-
-  @include from('tablet') {
-    min-height: 500px;
-  }
-
-  @include from('desktop') {
-    min-height: 700px;
-    height: 700px;
   }
 
 }

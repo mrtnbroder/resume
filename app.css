@@ -1360,6 +1360,17 @@ img {
   min-height: 300px;
   height: 90vh;
   overflow: hidden; }
+  @media screen and (min-width: 46.25em) {
+    .header {
+      min-height: 500px; } }
+  @media screen and (min-width: 62.5em) {
+    .header {
+      min-height: 700px;
+      height: 700px; } }
+  .header.dillinger {
+    background-color: #394154;
+    background-image: none;
+    height: 400px; }
   .header > .page {
     position: relative; }
   .header .me {
@@ -1367,9 +1378,13 @@ img {
     top: 40px;
     right: -560px;
     width: 700px; }
+    .header .me h1 {
+      font-family: Vollkorn, Cambria, Georgia, serif; }
     .header .me h1, .header .me p {
       font-size: 24px;
-      line-height: 2rem; }
+      line-height: 2rem;
+      text-align: left;
+      color: #fff; }
     .header .me span {
       display: block; }
     @media screen and (min-width: 46.25em) {
@@ -1388,18 +1403,6 @@ img {
           font-size: 50px; }
         .header .me p {
           padding-top: 2rem; } }
-  .header h1, .header p {
-    text-align: left;
-    color: #fff; }
-  .header h1 {
-    font-family: Vollkorn, Cambria, Georgia, serif; }
-  @media screen and (min-width: 46.25em) {
-    .header {
-      min-height: 500px; } }
-  @media screen and (min-width: 62.5em) {
-    .header {
-      min-height: 700px;
-      height: 700px; } }
 
 .page {
   margin: 0 auto;
@@ -1573,6 +1576,15 @@ img {
     .case-study--gemeindeapp a, .case-study--gemeindeapp h1 {
       color: #CF5757; }
 
+.case-study-intro p {
+  padding-top: 0; }
+  .case-study-intro p:first-child {
+    padding-top: 2rem;
+    margin-bottom: 0; }
+.case-study-intro h1 {
+  font-size: 60px;
+  margin-bottom: 2rem; }
+
 .education h1 {
   margin: 3rem auto 3rem;
   position: relative; }
@@ -1610,6 +1622,6 @@ img {
 .skills h1 {
   margin: 3rem 0; }
 
-.footer > .page p, .education h1, .skills h1 {
+.footer > .page p, .case-study-intro, .education h1, .skills h1 {
   text-align: center; }
 

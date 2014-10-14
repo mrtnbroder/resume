@@ -5,9 +5,10 @@
   <title>Resume of Martin Broder</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css-->
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Vollkorn:200,400italic,400' rel='stylesheet' type='text/css'>
   <!-- stylesheets -->
-  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="app.css" type="text/css" />
   <!-- favicon -->
   <link rel="shortcut icon" href="img/favicon.ico">
 
@@ -19,116 +20,58 @@
 <body>
 
   <!-- Header-->
-  <section class="center intro dillinger">
-    <p>Case Study of</p>
-    <h1>Dillinger.io</h1>
-    <p>A Open Source Markdown Editor</p>
-    <img src="img/projects/dillinger/header.jpg" alt="" class='header-image'>
-  </section>
-  <div class="box-shadow"></div>
+  <header class="header case-study case-study--dillinger dillinger">
+    <div class="page">
+      <header class="case-study-intro dillinger">
+        <p>Case Study of</p>
+        <h1>Dillinger.io</h1>
+        <p><strong>A Open Source Markdown Editor</strong></p>
+      </header>
+      <img src="img/projects/dillinger/header.jpg" alt="" class='teaser-image'>
+    </div>
+  </header>
 
-  <!-- About-->
-  <section class="about">
-    <div class="container">
-      <h2 class="wow fadeInLeft" data-wow-offet="300">About</h2>
-      <p>Dillinger.io is a side-project of Joe McCann, a Node.js developer, Cofounder/CEO of nodesource, Futurist, Minimalist and Capitalist from New York. He built Dillinger.io in the need of a decent markdown editor with a live preview. Today, it has over 50.000 page views the month and over 3.000 stars on GitHub.</p>
-      <p>He asked for Redesign and UX improvements, since it looked outdated and desperatly needed a refreshment. It was a requirement to use a Open Source HTML, CSS and JS framework like Bootstrap, so people could easily contribute.</p>
+  <section class="introduction">
+    <div class="page">
+      <div class="splitted">
+        <p>My name is Martin, and I'm a passionate designer and front-end developer, currently living in Berlin, Germany.</p>
+        <!-- <p>I enjoy designing and coding mobile and web applications</p> -->
+        <p>I've successfully finished my apprenticeship as a media designer in 2013, where I first worked some more time as an full-time employee. In 2014 I decided to go freelance to work closer with start-ups and agencies. Since then I've gained a lot of experience with several coding languages including JavaScript, Ruby, PHP and frameworks like Bootstrap, AngularJS, Backbone, Ionic, Laravel and more. I constantly try to stay open for new things and keep myself up-to-date.</p>
+        <p>You'll find me a lot on <a href="https://twitter.com/mrtnbroder">Twitter</a>, hanging around on <a href="http://news.layervault.com/">Designer</a>/<a href="https://news.ycombinator.com/">Hacker News</a>, posting shots on <a href="https://dribbble.com/mrtnbroder">Dribbble</a> and lifting weights in the gym to keep myself fit. When I got the time, I also like to contribute to <a href="https://github.com/mrtnbroder">Open Source Projects</a> and reading Typograhpy/Design Books.</p>
+      </div>
+
     </div>
   </section>
 
-    <!-- Begin -->
-  <div class="explanation gray">
-    <section class="row">
-      <div class="grid-2">
-        <h2>Research</h2>
-        <p>I've began studying the shortcomings of the existing site and started to write down what could be improved, removed or changed. After I made my impression, I started with some research and brainstorming first, finding out how other competitors compare to it. After doing that, I started doing rough sketches of the ideas I had. When I think I got a good sketch, I improve upon that and create wireframes for a more detailed impression.</p>
-      </div>
-      <div class="grid-4">
-        <img src="img/projects/dillinger/sketches.png" alt="">
-      </div>
-    </section>
-  </div>
+  <section class="case-studies">
 
-  <div class="explanation slategray">
-    <section class="row">
-      <div class="grid-4">
-        <img src="img/projects/dillinger/details.png" class="clip details" alt="">
-      </div>
-      <div class="grid-2 grid-push-4">
-      <!-- Digging deeper -->
-        <h2>Digging deeper</h2>
-        <p>I used a great online app called LayerVault for the presentation of my wireframes, it is a great helper for designers as the client can easily comment directly on the designs, simply by clicking and dragging on the picture and writing down his thoughts.</p>
-        <p>When all the details were settled, I started on the actual design. Going Mobil-first, I started by crafting the mobile pages first, followed by the tablet pages and at last, the desktop ones.</p>
-      </div>
-    </section>
-  </div>
-
-  <div class="explanation">
-    <section class="row">
-      <div class="grid-4">
-        <video class="clip prototype wow fadeInLeft" autobuffer autoloop loop autoplay>
-          <source src="img/projects/dillinger/ipad-mockup.mp4">
-        </video>
-      </div>
-      <div class="grid-2 grid-push-4 wow fadeInRight">
-        <!-- Prototyping -->
-        <h2>Prototyping</h2>
-        <p>I wanted to show a great presentation of my designs, and what is the best way of doing that? Right.<br> A <del><em>printed, cut out and combined, mobile phone camera filmed</em></del> interactive prototype of course! I started to export the pages (I love how fast and easy it is with Sketch App to export images) to upload them on InVison, an awesome online prototyping web-app. Within a matter of minutes, I've had a working prototype of the app, easily sent to my client with the click of a button.</p>
-        <p>One "Awesome!" later, I've had my confirmation to get on to my next step.</p>
-      </div>
-    </section>
-  </div>
-
-  <blockquote>
-    <p>Good code is its own best documentation. As you're about to add a comment, ask yourself, 'How can I improve the code so that this comment isn't needed?' Improve the code and then document it to make it even clearer.</p>
-    <span>– S. McConnell</span>
-  </blockquote>
-
-  <div class="explanation slategray">
-    <section class="row">
-      <div class="grid-4">
-        <img src="img/projects/dillinger/coding.jpg" class="clip details" alt="">
-      </div>
-      <div class="grid-2 grid-push-4 wow bounceInUp">
-      <!-- Coding -->
-        <h2>The Coding</h2>
-        <p>It is always a challenge, working into someone elses codebase, especially when nothing is commented or documented. For my luck, the code was greatly written and most functions had comments, it didn't take me long and I started to implement my stuff on top of it.</p>
-        <p>Dillinger has a quite complex structure and most of it's functions were self-written. As I thought that this complex nature could be made less stressfull for others, I decided to implement AngularJS into it. It has a big userbase and many can contribute to Dillinger to improve it even more.</p>
-      </div>
-    </section>
-  </div>
-
-    <hr>
-
-    <!-- Gallery Block-->
-    <section class="gallery">
-      <h1 class="center">Next Project</h1>
-    </section>
-    <!-- Testimonials-->
-  </div> <!-- End container-->
-
-  <section class="spotlight">
-    <div class="container">
-      <div class="row">
-        <div class="grid-3">
-          <h1>Birthday Suits</h1>
-          <p>Birthday Suits is a the fashion collection of artist and fashion designer Louise Walleneit.</p>
-          <a href="birthday-suits.html">View Project</a>
-        </div>
-        <div class="grid-3 grid-push-3">
-          <img class="teaser right birthdaysuits" src="img/projects/birthdaysuits/teaser.png">
-        </div>
-      </div>
+    <div class="page">
+      <h2>Next Project</h2>
     </div>
-  </section>
-  <!-- New container-->
-  <!-- End Container -->
 
-  <script src="bower_components/wow/dist/wow.min.js"></script>
-  <script>
-   new WOW({
-    offset: 300
-   }).init();
-  </script>
+    <article class="case-study case-study--birthdaysuits">
+      <div class="page">
+        <div class="flex-showcase">
+          <div class="g-b g-b--d1of2 showcase-item">
+            <h1>Birthday Suits</h1>
+            <p>Birthday Suits is a the fashion collection of artist and fashion designer Louise Walleneit.</p>
+            <a class="btn btn--birthdaysuits" href="birthday-suits.html">View Case Study</a>
+          </div>
+          <div class="g-b g-b--d1of2 showcase-image birthdaysuits">
+            <img src="img/projects/birthdaysuits/teaser.png"
+                 srcset="img/projects/birthdaysuits/teaser.png 1x,
+                         img/projects/birthdaysuits/teaser@2x.png 2x">
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <footer class="footer">
+    <div class="page">
+      <p>&copy; Martin Broder 2014</p>
+    </div>
+  </footer>
+
 </body>
 </html>

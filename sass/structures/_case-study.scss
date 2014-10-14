@@ -71,9 +71,23 @@
 
 // .has-case-study
 
-// -------------------------------------
-//   Scaffolding
-// -------------------------------------
+}
+  // -------------------------------------
+  //   Scaffolding
+  // -------------------------------------
 
-// .case-study-scaffolding
+.case-study-intro {
+  @extend %tac;
+
+  p {
+    padding-top: 0;
+    &:first-child {
+      padding-top: 2rem;
+      margin-bottom: 0;
+    }
+  }
+  h1 {
+    font-size: 60px;
+    margin-bottom: 2rem;
+  }
 }
