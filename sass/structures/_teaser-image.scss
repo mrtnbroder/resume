@@ -1,0 +1,47 @@
+// *************************************
+//
+//   Teaser Image
+//   -> This is the big picture in the header of a case study
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// .teaser-image[.teaser-image--modifier](.is-state)(.has-context)
+//   .teaser-image-scaffolding
+//
+// *************************************
+
+.teaser-image {
+  transition: all 1s ease;
+  opacity: 0;
+  transform: translateY(60px);
+  &.loaded {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+// .teaser-image--modifier
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+// .teaser-image.is-state
+
+// -------------------------------------
+//   Context
+// -------------------------------------
+
+// .has-teaser-image
+
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
+
+// .teaser-image-scaffolding

@@ -1622,6 +1622,19 @@ img {
 .skills h1 {
   margin: 3rem 0; }
 
+.teaser-image {
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+  opacity: 0;
+  -webkit-transform: translateY(60px);
+      -ms-transform: translateY(60px);
+          transform: translateY(60px); }
+  .teaser-image.loaded {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0); }
+
 .footer > .page p, .case-study-intro, .education h1, .skills h1 {
   text-align: center; }
 
