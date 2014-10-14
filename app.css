@@ -1541,14 +1541,17 @@ img {
   .footer > .page p {
     font-size: 12px; }
 
-@media screen and (min-width: 46.25em) {
-  .introduction {
-    margin-bottom: 3rem;
-    margin-top: 3rem; } }
-@media screen and (min-width: 62.5em) {
-  .introduction {
-    margin-bottom: 8rem;
-    margin-top: 8rem; } }
+.introduction {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 46.25em) {
+    .introduction {
+      margin-bottom: 3rem;
+      margin-top: 3rem; } }
+  @media screen and (min-width: 62.5em) {
+    .introduction {
+      margin-bottom: 8rem;
+      margin-top: 8rem; } }
 
 .case-study {
   overflow: hidden; }

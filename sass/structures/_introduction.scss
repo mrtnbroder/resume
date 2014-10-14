@@ -13,6 +13,8 @@
 // *************************************
 
 .introduction {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   @include from('tablet') {
     margin-bottom: 3rem;
