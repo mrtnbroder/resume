@@ -22,6 +22,10 @@
 
 // .step--modifier
 
+  &.development.birthdaysuits {
+    min-height: 800px;
+  }
+
 // -------------------------------------
 //   States
 // -------------------------------------
@@ -55,6 +59,16 @@
     }
 
     &.dillinger {
+      margin-top: 5rem;
+      background-color: #F4F4F4;
+    }
+
+    &.birthdaysuits {
+      margin-top: 5rem;
+      background-color: #F4F4F4;
+    }
+
+    &.gemeindeapp {
       margin-top: 5rem;
       background-color: #F4F4F4;
     }

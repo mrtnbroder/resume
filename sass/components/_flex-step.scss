@@ -71,6 +71,88 @@
   }
 
   //
+  // GEMEINDEAPP SPECIFIC
+  //
+  &.execution-gemeindeapp {
+    @include from('tablet') {
+      align-self: flex-start;
+
+      img {
+        position: absolute;
+        left: 40px;
+        top: 0;
+        height: 700px;
+      }
+    }
+  }
+
+  &.design-gemeindeapp {
+    @include from('tablet') {
+      align-self: flex-start;
+
+      img {
+        position: absolute;
+        right: 40px;
+        top: 0;
+        height: 700px;
+      }
+    }
+  }
+
+  &.development-gemeindeapp {
+    @include from('tablet') {
+      align-self: flex-start;
+
+      img {
+        position: absolute;
+        left: 40px;
+        top: 0;
+      }
+    }
+  }
+
+  //
+  // BIRTHDAYSUITS SPECIFIC
+  //
+  &.execution-birthdaysuits {
+    @include from('tablet') {
+      align-self: flex-start;
+
+      img {
+        position: absolute;
+        left: 40px;
+        top: 0;
+        height: 700px;
+      }
+    }
+  }
+
+  &.design-birthdaysuits {
+    @include from('tablet') {
+      align-self: flex-start;
+
+      img {
+        position: absolute;
+        right: 40px;
+        top: 0;
+        height: 700px;
+      }
+    }
+  }
+
+  &.development-birthdaysuits {
+    @include from('tablet') {
+      align-self: flex-start;
+
+      img {
+        position: absolute;
+        left: 40px;
+        top: 0;
+      }
+    }
+  }
+
+  //
   // DILLINGER SPECIFIC
   //
   &.execution-dillinger {

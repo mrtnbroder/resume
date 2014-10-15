@@ -26,6 +26,18 @@
     height: 400px;
   }
 
+  &.birthdaysuits {
+    background-color: map-get(map-get($c, background), birthdaysuits);
+    background-image: none;
+    height: 400px;
+  }
+
+  &.gemeindeapp {
+    background-color: map-get(map-get($c, background), gemeindeapp);
+    background-image: none;
+    height: 400px;
+  }
+
   > .page {
     position: relative;
   }

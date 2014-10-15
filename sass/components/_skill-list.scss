@@ -29,8 +29,13 @@
     }
 
     @include from('desktop') {
-      width: auto;
-      padding: 0 20px;
+      width: 20%;
     }
+  }
+
+  a {
+    margin: 1rem;
+    border: 1px solid #eaeaea;
+    display: block;
   }
 }

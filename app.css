@@ -1379,6 +1379,14 @@ img {
     background-color: #394154;
     background-image: none;
     height: 400px; }
+  .header.birthdaysuits {
+    background-color: #ebebeb;
+    background-image: none;
+    height: 400px; }
+  .header.gemeindeapp {
+    background-color: #383838;
+    background-image: none;
+    height: 400px; }
   .header > .page {
     position: relative; }
   .header .me {
@@ -1561,6 +1569,64 @@ img {
         right: 20px;
         top: 37px; } }
   @media screen and (min-width: 46.25em) {
+    .step-image.execution-gemeindeapp {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .step-image.execution-gemeindeapp img {
+        position: absolute;
+        left: 40px;
+        top: 0;
+        height: 700px; } }
+  @media screen and (min-width: 46.25em) {
+    .step-image.design-gemeindeapp {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .step-image.design-gemeindeapp img {
+        position: absolute;
+        right: 40px;
+        top: 0;
+        height: 700px; } }
+  @media screen and (min-width: 46.25em) {
+    .step-image.development-gemeindeapp {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .step-image.development-gemeindeapp img {
+        position: absolute;
+        left: 40px;
+        top: 0; } }
+  @media screen and (min-width: 46.25em) {
+    .step-image.execution-birthdaysuits {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .step-image.execution-birthdaysuits img {
+        position: absolute;
+        left: 40px;
+        top: 0;
+        height: 700px; } }
+  @media screen and (min-width: 46.25em) {
+    .step-image.design-birthdaysuits {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .step-image.design-birthdaysuits img {
+        position: absolute;
+        right: 40px;
+        top: 0;
+        height: 700px; } }
+  @media screen and (min-width: 46.25em) {
+    .step-image.development-birthdaysuits {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .step-image.development-birthdaysuits img {
+        position: absolute;
+        left: 40px;
+        top: 0; } }
+  @media screen and (min-width: 46.25em) {
     .step-image.execution-dillinger {
       -webkit-align-self: flex-start;
           -ms-flex-item-align: start;
@@ -1651,8 +1717,11 @@ img {
         width: 25%; } }
     @media screen and (min-width: 62.5em) {
       .skill-list li {
-        width: auto;
-        padding: 0 20px; } }
+        width: 20%; } }
+  .skill-list a {
+    margin: 1rem;
+    border: 1px solid #eaeaea;
+    display: block; }
 
 .footer > .page {
   border-top: 1px dotted #9a9aa8;
@@ -1709,6 +1778,8 @@ img {
 
 .step {
   min-height: 700px; }
+  .step.development.birthdaysuits {
+    min-height: 800px; }
   .step-wrapper {
     overflow: hidden; }
   .step.showcase {
@@ -1717,6 +1788,12 @@ img {
     .step.showcase img {
       padding-top: 1rem; }
     .step.showcase.dillinger {
+      margin-top: 5rem;
+      background-color: #F4F4F4; }
+    .step.showcase.birthdaysuits {
+      margin-top: 5rem;
+      background-color: #F4F4F4; }
+    .step.showcase.gemeindeapp {
       margin-top: 5rem;
       background-color: #F4F4F4; }
   .step.launch {
