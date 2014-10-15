@@ -23,13 +23,13 @@ $debug: false;
 
 // ----- Palette ----- //
 
-$plum: #4e4e5b;
+$plum: salmon;
 
 // ----- Base ----- //
 
 $c-background: #fff;
 $c-background-invert: invert($c-background);
-$c-border: lighten($plum, 30%);
+$c-border: #ddd;
 $c-highlight: $plum;
 $c-subdue: lighten($plum, 40%);
 $c-text-invert: white;
@@ -40,6 +40,7 @@ $c: (
   base (
     background #fff,
     text #444,
+    links invert($plum),
     highlight $plum,
     disabled #ccc
   ),

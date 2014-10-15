@@ -1318,6 +1318,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 565,
+		"inputAbbreviatedPath": "\/favicon.png",
+		"outputAbbreviatedPath": "\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/gemeinde-app.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1481,6 +1492,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logos\/git.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3038,
+		"inputAbbreviatedPath": "\/img\/logos\/git.png",
+		"outputAbbreviatedPath": "\/img\/logos\/git.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logos\/git@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5150,
+		"inputAbbreviatedPath": "\/img\/logos\/git@2x.png",
+		"outputAbbreviatedPath": "\/img\/logos\/git@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logos\/grunt.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1521,6 +1554,28 @@
 		"initialSize": 7472,
 		"inputAbbreviatedPath": "\/img\/logos\/gulp@2x.png",
 		"outputAbbreviatedPath": "\/img\/logos\/gulp@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logos\/haml.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4658,
+		"inputAbbreviatedPath": "\/img\/logos\/haml.png",
+		"outputAbbreviatedPath": "\/img\/logos\/haml.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logos\/haml@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9812,
+		"inputAbbreviatedPath": "\/img\/logos\/haml@2x.png",
+		"outputAbbreviatedPath": "\/img\/logos\/haml@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

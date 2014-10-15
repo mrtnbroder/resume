@@ -119,14 +119,13 @@ h6 {
 // ----- Links ----- //
 
 a {
-  // border-bottom: $base-border;
-  color: $c-highlight;
+  color: map-get(map-get($c, base), links);
   text-decoration: none;
+  transition: all .15s linear;
 
   &:hover,
   &:focus {
-    // border-bottom-color: $c-highlight;
-    // color: $c-subdue;
+    color: map-get(map-get($c, base), highlight);
   }
 }
 
