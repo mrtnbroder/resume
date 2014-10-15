@@ -1482,8 +1482,17 @@ img {
               align-self: flex-start; }
       .showcase-image.gemeindeapp img {
         position: absolute;
-        right: 20px;
+        right: 40px;
         top: 37px; } }
+  @media screen and (min-width: 46.25em) {
+    .showcase-image.birthdaysuits {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; }
+      .showcase-image.birthdaysuits img {
+        position: absolute;
+        top: 80px;
+        left: 40px; } }
   @media screen and (min-width: 46.25em) {
     .showcase-image.dillinger {
       -webkit-align-self: flex-start;
@@ -1491,7 +1500,7 @@ img {
               align-self: flex-start; }
       .showcase-image.dillinger img {
         position: absolute;
-        right: 20px;
+        right: 40px;
         top: 80px; } }
 
 .flex-step {
@@ -1688,6 +1697,12 @@ img {
 .case-study-intro h1 {
   font-size: 60px;
   margin-bottom: 2rem; }
+
+.case-studies {
+  text-align: center; }
+  @media screen and (min-width: 46.25em) {
+    .case-studies {
+      text-align: left; } }
 
 .step {
   min-height: 700px; }

@@ -15,12 +15,6 @@
 .case-study {
   overflow: hidden;
 
-  img {
-    // position: absolute;
-    // top: 0;
-    // z-index: 2;
-  }
-
   .page {
     position: relative;
   }
@@ -89,5 +83,13 @@
   h1 {
     font-size: 60px;
     margin-bottom: 2rem;
+  }
+}
+
+.case-studies {
+  text-align: center;
+
+  @include from('tablet') {
+    text-align: left;
   }
 }

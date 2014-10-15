@@ -54,8 +54,19 @@
       align-self: flex-start;
       img {
         position: absolute;
-        right: 20px;
+        right: 40px;
         top: 37px;
+      }
+    }
+  }
+
+  &.birthdaysuits {
+    @include between('tablet', 'widescreen') {
+      align-self: flex-start;
+      img {
+        position: absolute;
+        top: 80px;
+        left: 40px;
       }
     }
   }
@@ -65,7 +76,7 @@
       align-self: flex-start;
       img {
         position: absolute;
-        right: 20px;
+        right: 40px;
         top: 80px;
       }
     }
