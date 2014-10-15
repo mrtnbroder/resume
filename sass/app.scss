@@ -37,11 +37,6 @@
 @import 'components/buttons';
 @import 'components/skill-list';
 @import 'components/footer';
-// @import 'components/bucket';
-// @import 'components/card';
-// @import 'components/cell';
-// @import 'components/row';
-// @import 'components/well';
 
 // -------------------------------------
 //   Structures
@@ -60,6 +55,15 @@
 // -------------------------------------
 
 // Third-party style imports, if needed
+$use-fadeIn:         true;
+$use-fadeInUp:       true;
+$use-fadeInUpBig:    false;
+$use-fadeInDown:     true;
+$use-fadeInDownBig:  false;
+$use-fadeInLeft:     true;
+$use-fadeInLeftBig:  false;
+$use-fadeInRight:    true;
+$use-fadeInRightBig: false;
 @import '../bower_components/animate-sass/animate';
 
 // -------------------------------------
