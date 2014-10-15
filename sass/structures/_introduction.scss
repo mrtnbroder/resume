@@ -24,6 +24,15 @@
     margin-bottom: 8rem;
     margin-top: 8rem;
   }
+
+  &:first-letter {
+    font-size: 72px;
+    float: left;
+    line-height: 72px;
+    padding-top: 5px;
+    padding-right: 6px;
+  }
+
 }
 
 // -------------------------------------
