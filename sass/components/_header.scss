@@ -31,6 +31,7 @@
     background-repeat: no-repeat;
     background-position: 100px center;
     background-size: cover;
+    height: 300px;
 
     @include from('mobile') {
       min-height: 500px;
@@ -91,7 +92,7 @@
 
     h1,
     p {
-      font-size: 24px;
+      font-size: 28px;
       line-height: 2rem;
       text-align: left;
       color: #fff;
