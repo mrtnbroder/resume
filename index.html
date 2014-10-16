@@ -36,6 +36,7 @@
 
 	<!-- just in case viewer is using Internet Explorer -->
 	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
 </head>
 
@@ -87,7 +88,7 @@
 						<a class="btn btn--dillinger" href="dillinger.html">View Case Study</a>
 					</div>
 					<div class="g-b g-b--d1of2 showcase-image dillinger">
-						<img src="img/projects/dillinger/teaser.png"
+						<img src="img/projects/dillinger/teaser.png" class="wow fadeInLeft" data-wow-offset="200"
 								 srcset="img/projects/dillinger/teaser.png 1x,
 								 				 img/projects/dillinger/teaser@2x.png 2x">
 					</div>
@@ -104,7 +105,7 @@
 						<a class="btn btn--birthdaysuits" href="birthday-suits.html">View Case Study</a>
 					</div>
 					<div class="g-b g-b--d1of2 showcase-image birthdaysuits">
-						<img src="img/projects/birthdaysuits/teaser.png"
+						<img src="img/projects/birthdaysuits/teaser.png" class="wow fadeInRight" data-wow-offset="200"
 								 srcset="img/projects/birthdaysuits/teaser.png 1x,
 								 				 img/projects/birthdaysuits/teaser@2x.png 2x">
 					</div>
@@ -121,7 +122,7 @@
 						<a class="btn btn--gemeindeapp" href="gemeinde-app.html">View Case Study</a>
 					</div>
 					<div class="g-b g-b--d1of2 showcase-image gemeindeapp">
-						<img src="img/projects/communal-app/teaser.png"
+						<img src="img/projects/communal-app/teaser.png" class="wow fadeInLeft" data-wow-offset="200"
 								 srcset="img/projects/communal-app/teaser.png 1x,
 								 				 img/projects/communal-app/teaser@2x.png 2x">
 					</div>
@@ -351,5 +352,9 @@
 		</div>
 	</footer>
 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="bower_components/wow/dist/wow.min.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
