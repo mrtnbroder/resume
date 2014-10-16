@@ -59,13 +59,35 @@ p {
 }
 
 blockquote {
+  @extend %tac;
   margin: 0;
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-top: 3rem;
+
+  &:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4rem;
+    line-height: 0.1rem;
+    // margin-right: 0.25rem;
+    vertical-align: -1.5rem;
+  }
+
+  &:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 4rem;
+    line-height: 0.1rem;
+    // margin-right: 0.25rem;
+    vertical-align: -1.5rem;
+  }
 
   p {
-    @include sp(delta, $bodytype, 3, 3, all);
+    @include sp(alpha, $bodytype, 4, 5, all);
     font-style: map-get($bodytype, italic);
     padding-left: 1rem;
     padding-right: 1rem;
+    display: inline;
   }
 }
 

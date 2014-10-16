@@ -13,7 +13,7 @@
 // *************************************
 
 .step {
-  min-height: 700px;
+  min-height: 600px;
   // overflow: hidden;
 
 // -------------------------------------
@@ -24,6 +24,19 @@
 
   &.development.birthdaysuits {
     min-height: 800px;
+  }
+
+  &.quote {
+    min-height: 0;
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include from('tablet') {
+      min-height: 100px;
+    }
   }
 
 // -------------------------------------

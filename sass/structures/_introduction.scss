@@ -14,14 +14,14 @@
 
 .introduction {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
 
   @include from('tablet') {
     margin-bottom: 3rem;
     margin-top: 3rem;
   }
   @include from('desktop') {
-    margin-bottom: 8rem;
+    // margin-bottom: 8rem;
     margin-top: 8rem;
   }
 
