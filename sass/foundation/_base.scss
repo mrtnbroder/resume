@@ -150,6 +150,7 @@ a {
   color: map-get(map-get($c, base), links);
   text-decoration: none;
   transition: all .15s linear;
+  // border-bottom: 1px solid lighten($plum, 20%);
 
   &:hover,
   &:focus {
