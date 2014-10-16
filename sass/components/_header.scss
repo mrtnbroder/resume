@@ -123,7 +123,8 @@
 
     @include from('mobile') {
       top: 90px;
-      right: -320px;
+      right: inherit;
+      left: 40px;
 
       h1,
       p {
@@ -132,15 +133,10 @@
       }
     }
 
-
-    @media screen and (min-width: 550px) {
-      left: inherit;
-      right: -250px;
-    }
-
     @include from('tablet') {
       top: 160px;
       right: -320px;
+      left: inherit;
 
       span {
         display: inline;
