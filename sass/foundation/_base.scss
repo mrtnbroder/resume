@@ -64,30 +64,35 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
   margin-top: 3rem;
 
-  &:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4rem;
-    line-height: 0.1rem;
-    // margin-right: 0.25rem;
-    vertical-align: -1.5rem;
-  }
-
-  &:after {
-    color: #ccc;
-    content: close-quote;
-    font-size: 4rem;
-    line-height: 0.1rem;
-    // margin-right: 0.25rem;
-    vertical-align: -1.5rem;
-  }
-
   p {
-    @include sp(alpha, $bodytype, 4, 5, all);
+    @include sp(alpha, $bodytype, 3, 0, all);
     font-style: map-get($bodytype, italic);
     padding-left: 1rem;
     padding-right: 1rem;
-    display: inline;
+    display: block;
+
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+    &:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4rem;
+      line-height: 0.1rem;
+      margin-right: 1rem;
+      vertical-align: -1rem;
+    }
+
+    // &:after {
+    //   color: #ccc;
+    //   content: close-quote;
+    //   font-size: 4rem;
+    //   line-height: 0.1rem;
+    //   margin-right: 0.5rem;
+    //   vertical-align: -1rem;
+    // }
   }
 }
 
