@@ -82,7 +82,7 @@
     position: absolute;
     z-index: 1;
     top: 40px;
-    right: -380px;
+    left: 20px;
     width: 700px;
 
     h1 {
@@ -104,6 +104,7 @@
     @include from('mobile') {
       top: 90px;
       right: -320px;
+      left: inherit;
 
       h1,
       p {
