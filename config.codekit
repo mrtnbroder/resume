@@ -1855,6 +1855,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/martin-broder-middle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184645,
+		"inputAbbreviatedPath": "\/img\/martin-broder-middle.jpg",
+		"outputAbbreviatedPath": "\/img\/martin-broder-middle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/martin-broder-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47886,
+		"inputAbbreviatedPath": "\/img\/martin-broder-small.jpg",
+		"outputAbbreviatedPath": "\/img\/martin-broder-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/martin-broder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 529931,
+		"inputAbbreviatedPath": "\/img\/martin-broder.jpg",
+		"outputAbbreviatedPath": "\/img\/martin-broder.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/portrait.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -27,7 +27,7 @@
 
   &.index {
     background-color: #c0cfd4;
-    background-image: url(img/background_v4.png);
+    background-image: url(img/martin-broder-small.jpg);
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
@@ -37,12 +37,13 @@
     }
 
     @include from('tablet') {
+      background-image: url(img/martin-broder-middle.jpg);
       background-position: -200px center;
       background-size: 1000px auto;
     }
 
     @media screen and (min-width: 1024px) and (min-height: 600px) {
-       background-position: -360px center;
+      background-position: -360px center;
     }
 
     @media screen and (min-width: 600px) and (min-height: 1024px) {
@@ -51,6 +52,7 @@
     }
 
     @include from('desktop') {
+      background-image: url(img/martin-broder.jpg);
       min-height: 700px;
       height: 700px;
       background-position: -200px center;
