@@ -26,12 +26,12 @@
   }
 
   &.index {
-    background-color: #c0cfd4;
+    background-color: #a4c2c8;
     background-image: url(img/martin-broder-small.jpg);
     background-repeat: no-repeat;
-    background-position: 100px center;
+    background-position: -280px center;
     background-size: cover;
-    height: 300px;
+    height: 500px;
 
     @include from('mobile') {
       min-height: 500px;
@@ -82,12 +82,14 @@
   .me {
     position: absolute;
     z-index: 1;
-    top: 40px;
-    left: 20px;
+    top: 120px;
+    left: 120px;
     width: 700px;
 
     h1 {
-      font-family: map-get($bodytype, font-family);
+      // font-family: map-get($bodytype, font-family);
+      font-style: normal;
+      font-weight: 600;
     }
 
     h1,
@@ -96,16 +98,32 @@
       line-height: 2rem;
       text-align: left;
       color: #fff;
+      font-family: $base-font-family-serif;
     }
 
     span {
       display: block;
     }
 
+    p {
+      font-style: italic;
+    }
+
+    @media screen and (min-width: 400px) {
+      left: inherit;
+      right: -480px;
+      top: 100px;
+
+      h1,
+      p {
+        font-size: 32px;
+        line-height: 2.5rem;
+      }
+    }
+
     @include from('mobile') {
       top: 90px;
       right: -320px;
-      left: inherit;
 
       h1,
       p {
@@ -114,11 +132,9 @@
       }
     }
 
-    @media screen and (min-width: 450px) {
-      right: -300px;
-    }
 
     @media screen and (min-width: 550px) {
+      left: inherit;
       right: -250px;
     }
 
