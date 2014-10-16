@@ -51,16 +51,32 @@
   }
 
   &--gemeindeapp {
-    border-color: map-get(map-get($c, highlight), gemeindeapp);
-    color: map-get(map-get($c, highlight), gemeindeapp);
+    border-color: map-get(map-get($c, background), gemeindeapp);
+    color: map-get(map-get($c, background), gemeindeapp);
     &:hover {
-      background-color: map-get(map-get($c, highlight), gemeindeapp);
+      background-color: map-get(map-get($c, background), gemeindeapp);
       color: map-get(map-get($c, text), gemeindeapp);
-      border-color: map-get(map-get($c, highlight), gemeindeapp);
+      border-color: map-get(map-get($c, background), gemeindeapp);
     }
   }
 
-  &.disabled {
+  &--back {
+    border-color: map-get(map-get($c, base), text);
+    color: map-get(map-get($c, base), text);
+    &:hover {
+      background-color: map-get(map-get($c, base), text);
+      color: map-get(map-get($c, base), background);
+      border-color: map-get(map-get($c, base), text);
+    }
+  }
+
+
+// -------------------------------------
+//   States
+// -------------------------------------
+
+// .btn.is-state
+  &.is-disabled {
     cursor: not-allowed;
     border-color: map-get(map-get($c, base), disabled);
     color: map-get(map-get($c, base), disabled);
@@ -70,12 +86,6 @@
       border-color: map-get(map-get($c, base), disabled);
     }
   }
-
-// -------------------------------------
-//   States
-// -------------------------------------
-
-// .btn.is-state
 
 // -------------------------------------
 //   Context

@@ -75,14 +75,15 @@
 
   p {
     padding-top: 0;
+
     &:first-child {
       padding-top: 2rem;
       margin-bottom: 0;
     }
   }
+
   h1 {
-    font-size: 60px;
-    margin-bottom: 2rem;
+    @include sp(alpha, $headingtype, 2, 1, all);
   }
 }
 
@@ -92,4 +93,9 @@
   @include from('tablet') {
     text-align: left;
   }
+}
+
+.selected-works {
+  @extend %tac;
+  @include sp(alpha, $headingtype, 2, 4, all);
 }

@@ -354,6 +354,41 @@
   text-align: right;
 }
 
+.or {
+  // display: block;
+  // margin-right: auto;
+  // margin-left: auto;
+  // text-align: center;
+  // z-index: 1;
+  // position: relative;
+
+  i {
+    @include sp(zeta, $bodytype, 3, 2, all);
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: block;
+
+    @include from('tablet') {
+      display: inline-block;
+    }
+  }
+
+  // i:before {
+  //   content: "";
+  //   position: absolute;
+  //   margin: 0 auto;
+  //   top: 64%;
+  //   z-index: -1;
+  //   // bottom: 0;
+  //   left: 0;
+  //   right: 0;
+  //   width: 300px;
+  //   height: 1px;
+  //   background-color: #ddd;
+  // }
+}
+
 // ----- Color ----- //
 
 // %tch {

@@ -23,7 +23,7 @@ $debug: false;
 
 // ----- Palette ----- //
 
-$plum: salmon;
+$plum: #88aebb;
 
 // ----- Base ----- //
 
@@ -40,13 +40,13 @@ $c: (
   base (
     background #fff,
     text #444,
-    links invert($plum),
-    highlight $plum,
+    links $plum,
+    highlight #000,
     disabled #ccc
   ),
 
   background (
-    gemeindeapp #383838,
+    gemeindeapp #CF5757,
     birthdaysuits #ebebeb,
     dillinger #394154
   ),
@@ -58,7 +58,7 @@ $c: (
   ),
 
   highlight (
-    gemeindeapp #CF5757,
+    gemeindeapp #383838,
     birthdaysuits #111,
     dillinger #41E2BE
   ),
