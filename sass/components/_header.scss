@@ -29,9 +29,9 @@
     background-color: #a4c2c8;
     background-image: url(img/martin-broder-small.jpg);
     background-repeat: no-repeat;
-    background-position: -280px center;
+    background-position: -220px center;
     background-size: cover;
-    height: 500px;
+    height: 392px;
 
     @include from('mobile') {
       min-height: 500px;
@@ -82,8 +82,8 @@
   .me {
     position: absolute;
     z-index: 1;
-    top: 120px;
-    left: 120px;
+    top: 70px;
+    left: 110px;
     width: 700px;
 
     h1 {
