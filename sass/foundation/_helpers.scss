@@ -85,6 +85,13 @@
   margin-bottom: 4rem;
 }
 
+.preloader {
+  background-image: url(img/preloader.gif) !important;
+  background-size: 32px 32px !important;
+  background-position: center 65% !important;
+  background-repeat: no-repeat !important;
+}
+
 .dropcap:first-letter {
   font-size: 72px;
   float: left;
