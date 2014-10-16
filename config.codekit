@@ -2130,6 +2130,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/projects\/communal-app\/sketches.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121748,
+		"inputAbbreviatedPath": "\/img\/projects\/communal-app\/sketches.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/communal-app\/sketches.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/communal-app\/sketches@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 331863,
+		"inputAbbreviatedPath": "\/img\/projects\/communal-app\/sketches@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/communal-app\/sketches@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projects\/communal-app\/teaser.png": {
 		"fileType": 32768,
 		"ignore": 0,
