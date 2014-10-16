@@ -1,0 +1,18 @@
+.preloader {
+  background-size: 32px 32px;
+  background-position: center 65%;
+  background-repeat: no-repeat;
+
+  &--dillinger {
+    background-image: url(img/preloader-dillinger.gif);
+  }
+
+  &--birthdaysuits {
+    background-image: url(img/preloader-birthdaysuits.gif);
+  }
+
+  &--gemeindeapp {
+    background-image: url(img/preloader-gemeindeapp.gif);
+  }
+
+}
