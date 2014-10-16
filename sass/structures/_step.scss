@@ -37,6 +37,18 @@
     @include from('tablet') {
       min-height: 100px;
     }
+
+    &.gemeindeapp {
+      @include from('tablet') {
+        min-height: 400px;
+      }
+    }
+
+    &.birthdaysuits {
+      @include from('tablet') {
+        min-height: 400px;
+      }
+    }
   }
 
 // -------------------------------------
