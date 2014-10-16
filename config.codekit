@@ -1338,61 +1338,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/background.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 84526,
-		"inputAbbreviatedPath": "\/img\/background.jpg",
-		"outputAbbreviatedPath": "\/img\/background.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/background_v1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 381848,
-		"inputAbbreviatedPath": "\/img\/background_v1.jpg",
-		"outputAbbreviatedPath": "\/img\/background_v1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/background_v2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 738728,
-		"inputAbbreviatedPath": "\/img\/background_v2.jpg",
-		"outputAbbreviatedPath": "\/img\/background_v2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/background_v3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 327071,
-		"inputAbbreviatedPath": "\/img\/background_v3.jpg",
-		"outputAbbreviatedPath": "\/img\/background_v3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/background_v4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/background_v4.png",
-		"outputAbbreviatedPath": "\/img\/background_v4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/logos\/angular-js.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1884,17 +1829,6 @@
 		"initialSize": 529931,
 		"inputAbbreviatedPath": "\/img\/martin-broder.jpg",
 		"outputAbbreviatedPath": "\/img\/martin-broder.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/portrait.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 41821,
-		"inputAbbreviatedPath": "\/img\/portrait.jpg",
-		"outputAbbreviatedPath": "\/img\/portrait.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
