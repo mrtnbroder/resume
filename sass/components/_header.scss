@@ -24,22 +24,24 @@
     min-height: 700px;
     height: 700px;
   }
+  $col: #787b9e;
 
   &.index {
-    background-color: #a4c2c8;
+    background-color: $col;
     background-image: url(img/martin-broder-small.jpg);
     background-repeat: no-repeat;
-    background-position: -220px center;
+    background-position: -210px center;
     background-size: cover;
     height: 392px;
+    // filter: #{grayscale}(1);
 
     @include from('mobile') {
       min-height: 500px;
       background-position: 120px center;
+      background-image: url(img/martin-broder-middle.jpg);
     }
 
     @include from('tablet') {
-      background-image: url(img/martin-broder-middle.jpg);
       background-position: -200px center;
     }
 
@@ -81,7 +83,7 @@
 
   .me {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: 70px;
     left: 110px;
     width: 700px;
