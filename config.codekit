@@ -2009,24 +2009,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/projects\/birthdaysuits\/teaser.png": {
-		"fileType": 32768,
+	"\/img\/projects\/birthdaysuits\/teaser.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 30187,
-		"inputAbbreviatedPath": "\/img\/projects\/birthdaysuits\/teaser.png",
-		"outputAbbreviatedPath": "\/img\/projects\/birthdaysuits\/teaser.png",
+		"initialSize": 19236,
+		"inputAbbreviatedPath": "\/img\/projects\/birthdaysuits\/teaser.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/birthdaysuits\/teaser.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/projects\/birthdaysuits\/teaser@2x.png": {
-		"fileType": 32768,
+	"\/img\/projects\/birthdaysuits\/teaser@2x.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 197317,
-		"inputAbbreviatedPath": "\/img\/projects\/birthdaysuits\/teaser@2x.png",
-		"outputAbbreviatedPath": "\/img\/projects\/birthdaysuits\/teaser@2x.png",
+		"initialSize": 60267,
+		"inputAbbreviatedPath": "\/img\/projects\/birthdaysuits\/teaser@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/projects\/birthdaysuits\/teaser@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
